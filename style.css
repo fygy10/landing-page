@@ -1,8 +1,12 @@
-.section-one {
+body {
     background-color: rgb(46, 46, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section-one {
     display: flex;
     color: white;
-   
 }
 
 .header-links {
@@ -18,4 +22,32 @@ ul {
     display: flex;
     list-style: none;
     gap: 10px;
+}
+
+.section-two {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.left-side {
+    margin-left: 150px;
+    justify-items: center;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.right-side {
+    margin-right: 150px;
+}
+
+button {
+    background-color: rgb(50, 50, 168);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    min-height: 20px;
+    min-width: 40px;
 }
