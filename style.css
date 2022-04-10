@@ -1,0 +1,18 @@
+.section-one {
+    background-color: rgb(46, 46, 83);
+    display: flex;
+    color: white;
+    align-items: center;
+    text-indent: 50px;
+    justify-content: space-between;
+}
+
+#header-links {
+    flex: 1;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
