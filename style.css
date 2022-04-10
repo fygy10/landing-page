@@ -2,17 +2,20 @@
     background-color: rgb(46, 46, 83);
     display: flex;
     color: white;
-    align-items: center;
-    text-indent: 50px;
-    justify-content: space-between;
+   
 }
 
-#header-links {
+.header-links {
     flex: 1;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 10px;
 }
