@@ -29,7 +29,8 @@ ul {
     color: white;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    height: 250px;
+    width: auto;
 }
 
 .left-side {
@@ -49,5 +50,81 @@ button {
     border-radius: 10px;
     padding: 7px;
     min-height: 20px;
-    min-width: 40px;
+    min-width: 90px;
+}
+
+.header {
+    font: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-three {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.box-one img {
+    border: 2px blue solid; 
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.box-two img {
+    border: 2px blue solid;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.box-three img {
+    border: 2px blue solid;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.box-four img {
+    border: 2px blue solid;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.section-four {
+    background-color:  lightgray;
+    color: black;
+    display: flex;
+    height: 200px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    font: italic 20px bold;
+}
+
+.section-five {
+    display: flex;
+    background-color: white;
+    color: red;
+    height: 250px;
+    width: auto;
+}
+
+.five-box {
+    height: 100;
+    width: 200;
+    border: 2px;
+    background-color: blue;
 }
